@@ -1,0 +1,27 @@
+{
+  "name": "movieql",
+  "version": "1.0.0",
+  "description": "Movie API with Grpahql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkddn2515/graphql-movieql.git"
+  },
+  "keywords": [
+    "graphql-movieql"
+  ],
+  "author": "tkddn2515",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tkddn2515/graphql-movieql/issues"
+  },
+  "homepage": "https://github.com/tkddn2515/graphql-movieql#readme",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3",
+    "nodemon": "^2.0.15"
+  }
+}
